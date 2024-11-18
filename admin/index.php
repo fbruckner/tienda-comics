@@ -17,10 +17,10 @@ require_once("../components/conf.php");
     <main>
         <section class="seccion">
             <article>
-                <h2>Cargar deportes</h2>
+                <h2>Cargar género</h2>
                 <form action="alta/alta_categoria.php" method="get">
                     <div>
-                        <label for="" id="deporte">Deporte:</label>
+                        <label for="" id="deporte">Género literario:</label>
                         <input type="text" id="deporte" name="deporte">
                     </div>
                     <div>
@@ -30,10 +30,10 @@ require_once("../components/conf.php");
             </article>
             <article class="articulo">
                 <table class="tabla">
-                    <caption>Deportes</caption>
+                    <caption>Género literario</caption>
                     <thead>
                         <tr>
-                            <th>Deporte</th>
+                            <th>Género</th>
                             <th>Modificar</th>
                             <th>Eliminar</th>
                         </tr>

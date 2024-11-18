@@ -21,7 +21,7 @@ if($con!=NULL){
          <h3>$filas[titulo]</h3>
 
          <figure>
-               <img src=../imgs/$filas[imagen] width=150>
+               <img src=../imgs/$filas[imagen] width=150 height=150>
          </figure>
 
          <a href=articulos.php?id=$filas[id_articulo]>Ver artículo</a></li>";

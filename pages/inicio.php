@@ -14,7 +14,7 @@ if($con!=NULL){
          print "<li class=col-4>
 
                         <div class=card style=width: 18rem;>
-                <img src=../imgs/$filas[imagen] width=150>
+                <img src=../imgs/$filas[imagen] width=200 height=200 >
                 <div class=card-body>
                     <h3 class=card-title>$filas[titulo]</h3>
                     <a href=articulos.php?id=$filas[id_articulo] class=btn btn-primary>Ver artículo</a>
